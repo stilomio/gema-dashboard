@@ -1,0 +1,28 @@
+/* Border */ 
+.btn-rectangule {
+    border-radius: 0px;
+}
+
+.btn-circle {
+    border-radius: 45px;
+}
+
+
+
+/* Colors Extra  */
+
+.btn-primary, a.btn-primary:link, a.btn-primary:visited {
+    color: #FFF;
+    background-color: #556B8D;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    color: #FFF;
+    background-color: #5F779D;
+    border-color: #5F779D;
+}
+
+.btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background: #556B8D none repeat scroll 0% 0%;
+    border-color: #556B8D;
+}
